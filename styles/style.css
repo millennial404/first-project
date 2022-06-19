@@ -13,13 +13,25 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
   /* выше установили ограничения для секции */
 }
-
+.header__title{
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__main-illustration {
+  background-image: url("../images/header-image.png");
+  background-size: cover;
+  width: 765px;
+  height: 608px;
+}
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: blue;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -63,4 +75,3 @@
   font-size: 24px;
   font-weight: bold;
 }
-
