@@ -9,29 +9,70 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+.logo {
+
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 100;
+  width: 228px;
+  height: 32px;
+}
+
 .header {
+  position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  overflow: hidden;
+  background-color:  #f2f2f2;
   /* выше установили ограничения для секции */
 }
-.header__title{
+
+.header__title {
+  width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
+  margin: auto 0 auto 64px;
+  z-index: 99;
 }
+.header__subtitle{
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  z-index: 98;
+  line-height: 25px;
+  font-style: 18px;
+  font-weight: normal;
+  
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__main-illustration {
   background-image: url("../images/header-image.png");
   background-size: cover;
   width: 765px;
   height: 608px;
+  position: absolute;
+  z-index: 95;
+  bottom: 0;
+  right: 0;
 }
+
 .header__square-pic {
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: ;
   height: 568px;
   width: 568px;
-  background-color: blue;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -41,22 +82,26 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
 .description {
   display: flex;
   justify-content: center;
 }
+
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
   padding: 100px 0;
 }
+
 .two-columns__brief {
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
 }
+
 .two-columns__main-text {
   min-width: 784px;
   width: 80%;
@@ -64,12 +109,15 @@
   font-size: 24px;
   font-weight: normal;
 }
+
 .two-columns__paragraph {
   margin-bottom: 30px;
 }
+
 .two-columns__paragraph:last-child {
   margin-bottom: 0px;
 }
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
