@@ -6,13 +6,9 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", "Arial", sans-serif;
 }
-
-.logo {
-
-}
-
+/* Логотип */
 .logo_place_header {
   position: absolute;
   top: 30px;
@@ -29,7 +25,9 @@
   max-height: 756px;
   display: flex;
   overflow: hidden;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
   /* выше установили ограничения для секции */
 }
 
@@ -37,11 +35,11 @@
   width: 730px;
   font-size: 102px;
   line-height: 96px;
-  font-weight: bold;
+  font-weight: 700;
   margin: auto 0 auto 64px;
   z-index: 99;
 }
-.header__subtitle{
+.header__subtitle {
   position: absolute;
   width: 388px;
   left: 64px;
@@ -50,13 +48,21 @@
   line-height: 25px;
   font-style: 18px;
   font-weight: normal;
-  
 }
-
+.header__subtitle a {
+  text-decoration: none;
+  opacity: 1;
+}
+.header__subtitle a:visited {
+  color: #2f80ed;
+}
+.header__subtitle a:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s linear;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__main-illustration {
-  background-image: url("../images/header-image.png");
-  background-size: cover;
+.header__main-illustration img {
+  background-size: contain;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -69,7 +75,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  z-index: ;
+  z-index: 1;
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
@@ -86,6 +92,8 @@
 .description {
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .two-columns {
@@ -100,6 +108,8 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+  color: #2f80ed;
+  padding-top: 5px;
 }
 
 .two-columns__main-text {
