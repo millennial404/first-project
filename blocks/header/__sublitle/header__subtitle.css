@@ -1,21 +1,26 @@
 .header__subtitle {
-    position: absolute;
-    width: 388px;
-    left: 64px;
-    bottom: 30px;
-    z-index: 98;
-    line-height: 25px;
-    font-style: 18px;
-    font-weight: normal;
-  }
-  .header__subtitle a {
-    text-decoration: none;
-    opacity: 1;
-  }
-  .header__subtitle a:visited {
-    color: #2f80ed;
-  }
-  .header__subtitle a:hover {
-    opacity: 0.5;
-    transition: opacity 0.2s linear;
-  }
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  z-index: 98;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.header__subtitle a {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.header__subtitle a:visited {
+  color: #2f80ed;
+}
+
+.header__subtitle a:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
+}

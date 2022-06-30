@@ -1,3 +1,4 @@
+@import url(../styles/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
@@ -71,3 +72,4 @@
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__img/feynman__img.css);
+@import url(../blocks/rotation/rotation.css);

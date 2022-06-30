@@ -1,6 +1,5 @@
-.cards{
-    /* border: 1px solid red; */
-    width: 920px;
-    display: flex;
-    flex-wrap: wrap;
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
 }

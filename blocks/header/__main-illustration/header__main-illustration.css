@@ -1,10 +1,10 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__main-illustration {
-    background-size: contain;
-    width: 765px;
-    height: 608px;
-    position: absolute;
-    z-index: 95;
-    bottom: 0;
-    right: 0;
-  }
+  background-size: contain;
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  z-index: 95;
+  bottom: 0;
+  right: 0;
+}

@@ -7,11 +7,13 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
-  z-index: 1
+  z-index: 1;
 }
+
 .feynman__link:visited {
   color: #2f80ed;
 }
+
 .feynman__link:hover {
   opacity: 0.5;
   transition: opacity 0.2s linear;
