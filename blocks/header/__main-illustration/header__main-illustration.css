@@ -1,6 +1,7 @@
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__main-illustration {
-  background-size: contain;
+  object-fit: contain;
+  object-position: right bottom;
   width: 765px;
   height: 608px;
   position: absolute;

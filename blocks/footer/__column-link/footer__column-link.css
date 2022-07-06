@@ -5,8 +5,13 @@
   margin-bottom: 10px;
 }
 
+.footer__column-link a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .footer__column-link:last-child {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .footer__column-link:hover {

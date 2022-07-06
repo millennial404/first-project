@@ -2,6 +2,8 @@
   font-size: 30px;
   line-height: 42px;
   font-weight: normal;
+  height: 50px;
+  color: #2f80ed;
 }
 .khan__buy-link {
   text-decoration: none;
